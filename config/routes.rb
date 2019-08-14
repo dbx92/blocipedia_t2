@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :wikis
   root to: 'wikis#home'
 
   devise_for :users
